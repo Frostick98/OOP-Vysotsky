@@ -1,0 +1,49 @@
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,csharp,dotnetcore
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+### VisualStudio ###
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## Visual Studio user files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet Packages
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+### DotnetCore ###
+*.nuget.props
+*.nuget.targets
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,csharp,dotnetcore
